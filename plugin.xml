@@ -70,7 +70,11 @@
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/*">
-            <queries>
+		<queries>
+	                <package android:name="biz.vnc.vnctalk" />
+        	        <package android:name="biz.vnc.vncmail" />
+                	<package android:name="biz.vnc.vnctask" />
+                	<package android:name="biz.vnc.contactsplus" />
                 <intent>
                     <action android:name="android.media.action.IMAGE_CAPTURE" />
                 </intent>
